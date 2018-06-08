@@ -7,6 +7,8 @@ public class StringHelperTest {
 
     StringHelper helper = new StringHelper();
 
+
+
     @Test
     public void testToBeginJUnit() {
         //fail("Not yet implement");
