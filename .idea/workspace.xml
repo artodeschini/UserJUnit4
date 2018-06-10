@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="597c803e-fd2e-4d49-8706-864310532b9a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/todeschini/helper/ArraysCompareTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/todeschini/helper/StringHelperParameterizedBooleanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/todeschini/helper/StringHelperParameterizedStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/todeschini/helper/AllTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/todeschini/helper/StringHelperParameterizedTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,11 +60,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringHelperParameterizedBooleanTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringHelperParameterizedBooleanTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/todeschini/helper/StringHelperParameterizedBooleanTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="724">
-              <caret line="49" column="82" selection-start-line="49" selection-start-column="82" selection-end-line="49" selection-end-column="82" />
+            <state relative-caret-position="338">
+              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AllTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/todeschini/helper/AllTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="98" selection-start-line="6" selection-start-column="98" selection-end-line="6" selection-end-column="98" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,6 +144,7 @@
         <option value="$PROJECT_DIR$/src/test/java/org/todeschini/helper/ArraysCompareTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/todeschini/helper/StringHelperParameterizedTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/todeschini/helper/StringHelperParameterizedBooleanTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/todeschini/helper/AllTest.java" />
       </list>
     </option>
   </component>
@@ -254,9 +266,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringHelperParameterizedBooleanTest.testAreFirstAndLastTwoCharactersTheSame_Parameterize">
+  <component name="RunManager" selected="JUnit.AllTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="AllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoJUnit4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.todeschini.helper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.todeschini.helper" />
+      <option name="MAIN_CLASS_NAME" value="org.todeschini.helper.AllTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="ArraysCompareTest.testArraySort_NullArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CursoJUnit4" />
@@ -271,29 +306,6 @@
       <option name="PACKAGE_NAME" value="org.todeschini.helper" />
       <option name="MAIN_CLASS_NAME" value="org.todeschini.helper.ArraysCompareTest" />
       <option name="METHOD_NAME" value="testArraySort_NullArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ArraysCompareTest.testArraySort_RandomArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CursoJUnit4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.todeschini.helper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="org.todeschini.helper" />
-      <option name="MAIN_CLASS_NAME" value="org.todeschini.helper.ArraysCompareTest" />
-      <option name="METHOD_NAME" value="testArraySort_RandomArray" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -436,19 +448,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.StringHelperTest.testTruncStringHelper" />
-      <item itemvalue="JUnit.ArraysCompareTest.testArraySort_RandomArray" />
       <item itemvalue="JUnit.ArraysCompareTest.testArraySort_NullArray" />
       <item itemvalue="JUnit.ArraysCompareTest.testSort_Performace" />
       <item itemvalue="JUnit.StringHelperParameterizedStringTest.testTrucateAInFist" />
       <item itemvalue="JUnit.StringHelperParameterizedBooleanTest.testAreFirstAndLastTwoCharactersTheSame_Parameterize" />
+      <item itemvalue="JUnit.AllTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AllTest" />
         <item itemvalue="JUnit.StringHelperParameterizedBooleanTest.testAreFirstAndLastTwoCharactersTheSame_Parameterize" />
         <item itemvalue="JUnit.StringHelperParameterizedStringTest.testTrucateAInFist" />
         <item itemvalue="JUnit.ArraysCompareTest.testSort_Performace" />
         <item itemvalue="JUnit.ArraysCompareTest.testArraySort_NullArray" />
-        <item itemvalue="JUnit.ArraysCompareTest.testArraySort_RandomArray" />
       </list>
     </recent_temporary>
   </component>
@@ -462,14 +474,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528408020010</updated>
-      <workItem from="1528408024648" duration="11977000" />
+      <workItem from="1528408024648" duration="12431000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QuickBeforeAfterTest_test1 - 2018.06.08 at 20h 26m 51s.xml">
-      <configuration name="QuickBeforeAfterTest.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="QuickBeforeAfterTest - 2018.06.08 at 20h 27m 09s.xml">
       <configuration name="QuickBeforeAfterTest" configurationId="JUnit" />
     </history-entry>
@@ -497,12 +506,16 @@
     <history-entry file="StringHelperParameterizedBooleanTest_testAreFirstAndLastTwoCharactersTheSame_Parameterize - 2018.06.09 at 22h 50m 00s.xml">
       <configuration name="StringHelperParameterizedBooleanTest.testAreFirstAndLastTwoCharactersTheSame_Parameterize" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AllTest - 2018.06.09 at 22h 57m 16s.xml">
+      <configuration name="AllTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11977000" />
+    <option name="totallyTimeSpent" value="12431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-22" y="30" width="1440" height="730" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -513,12 +526,12 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18445122" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18445122" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -651,8 +664,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/todeschini/helper/StringHelperParameterizedBooleanTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="49" column="82" selection-start-line="49" selection-start-column="82" selection-end-line="49" selection-end-column="82" />
+        <state relative-caret-position="338">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/todeschini/helper/AllTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="98" selection-start-line="6" selection-start-column="98" selection-end-line="6" selection-end-column="98" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
